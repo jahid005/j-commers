@@ -1,0 +1,31 @@
+#list{
+    display: flex;
+    justify-content:end;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    width:335px;
+}
+/* carousel */
+.color-bg{
+    background-color:#feeae9;
+    border-radius:10px;
+}
+.container{
+    margin-bottom:90px;
+}
+.carousel-item{
+    padding:20px 40px;
+}
+.price{
+    color:#ff136f;
+}
+.buy-now-button{
+    background-image:linear-gradient(to bottom, #ff136f 0%,#ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius:8px;
+    padding:9px 25px;
+    cursor:pointer;
+}
