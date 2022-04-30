@@ -29,3 +29,51 @@
     padding:9px 25px;
     cursor:pointer;
 }
+.buy-now-button::after{
+    content:" >>";
+    left:-10px;
+    top: 0;
+    font-weight:900;
+
+}
+
+/* categories */
+.catagories h1{
+    color:#fff;
+}
+.catagories img{
+    width:100px;
+}
+.cat1, .cat2, .cat3{
+    padding:10px 25px;
+    border-radius:8px;
+}
+.cat1{
+    background: rgb(236,133,28);
+    background: linear-gradient(63deg, rgba(236,133,28,1) 49%, rgba(255,156,53,1) 60%);
+}
+.cat2{
+    background: rgb(255,88,155);
+    background: linear-gradient(270deg, rgba(255,88,155,1) 41%, rgba(235,74,138,1) 54%);
+}
+.cat3{
+    background: rgb(66,137,255);
+    background: linear-gradient(63deg, rgba(66,137,255,1) 43%, rgba(50,112,217,1) 61%);
+}
+
+/* shoes */
+.card{
+    border:none;
+    box-shadow:5px 5px 10px lightgray;
+}
+/* contact */
+.contact{
+    height:300px;
+}
+.contact h6{
+    color:#676767;
+    text-align:center;
+}
+.contact h3{
+    text-align:center;
+}
